@@ -7,18 +7,30 @@
         {
           "from": {
             "key_code": "insert",
-            "modifiers": {"mandatory": ["control"], "optional": ["any"]}
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "c",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -32,12 +44,23 @@
         {
           "from": {
             "key_code": "insert",
-            "modifiers": {"mandatory": ["control"], "optional": ["any"]}
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "c",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -46,7 +69,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -60,18 +84,30 @@
         {
           "from": {
             "key_code": "insert",
-            "modifiers": {"mandatory": ["shift"], "optional": ["any"]}
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "v",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -85,12 +121,23 @@
         {
           "from": {
             "key_code": "insert",
-            "modifiers": {"mandatory": ["shift"], "optional": ["any"]}
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "v",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -99,7 +146,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -113,12 +161,20 @@
         {
           "from": {
             "key_code": "home",
-            "modifiers": {"optional": ["any"]}
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "left_arrow",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -127,7 +183,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -141,12 +198,23 @@
         {
           "from": {
             "key_code": "home",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
-            "key_code": "up_arrow",
-            "modifiers": ["command"]
-          }],
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -155,7 +223,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -169,12 +238,24 @@
         {
           "from": {
             "key_code": "home",
-            "modifiers": { "mandatory": ["shift"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
-            "key_code": "left_arrow",
-            "modifiers": ["command", "shift"]
-          }],
+          "to": [
+            {
+              "key_code": "left_arrow",
+              "modifiers": [
+                "command",
+                "shift"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -183,7 +264,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -197,12 +279,25 @@
         {
           "from": {
             "key_code": "home",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
-            "key_code": "up_arrow",
-            "modifiers": ["command", "shift"]
-          }],
+          "to": [
+            {
+              "key_code": "up_arrow",
+              "modifiers": [
+                "command",
+                "shift"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -211,7 +306,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -225,12 +321,20 @@
         {
           "from": {
             "key_code": "end",
-            "modifiers": {"optional": ["any"]}
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "right_arrow",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -239,7 +343,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -253,12 +358,23 @@
         {
           "from": {
             "key_code": "end",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
-            "key_code": "down_arrow",
-            "modifiers": ["command"]
-          }],
+          "to": [
+            {
+              "key_code": "down_arrow",
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -267,7 +383,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -281,12 +398,24 @@
         {
           "from": {
             "key_code": "end",
-            "modifiers": { "mandatory": ["shift"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
-            "key_code": "right_arrow",
-            "modifiers": ["command", "shift"]
-          }],
+          "to": [
+            {
+              "key_code": "right_arrow",
+              "modifiers": [
+                "command",
+                "shift"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -295,7 +424,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -309,12 +439,25 @@
         {
           "from": {
             "key_code": "end",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
-            "key_code": "down_arrow",
-            "modifiers": ["command", "shift"]
-          }],
+          "to": [
+            {
+              "key_code": "down_arrow",
+              "modifiers": [
+                "command",
+                "shift"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -323,7 +466,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -337,12 +481,23 @@
         {
           "from": {
             "key_code": "left_arrow",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "left_arrow",
-              "modifiers": ["option"]
-          }],
+              "modifiers": [
+                "option"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -351,7 +506,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -365,12 +521,25 @@
         {
           "from": {
             "key_code": "left_arrow",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "left_arrow",
-              "modifiers": ["option", "shift"]
-          }],
+              "modifiers": [
+                "option",
+                "shift"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -379,7 +548,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -393,12 +563,23 @@
         {
           "from": {
             "key_code": "right_arrow",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "right_arrow",
-              "modifiers": ["option"]
-          }],
+              "modifiers": [
+                "option"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -407,7 +588,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -421,12 +603,25 @@
         {
           "from": {
             "key_code": "right_arrow",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "right_arrow",
-              "modifiers": ["option", "shift"]
-          }],
+              "modifiers": [
+                "option",
+                "shift"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -435,7 +630,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -443,21 +639,29 @@
         }
       ]
     },
-
-
-
     {
       "description": "Backspace (Ctrl)",
       "manipulators": [
         {
           "from": {
             "key_code": "delete_or_backspace",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "delete_or_backspace",
-              "modifiers": ["option"]
-          }],
+              "modifiers": [
+                "option"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -466,7 +670,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -480,12 +685,23 @@
         {
           "from": {
             "key_code": "delete_forward",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "delete_forward",
-              "modifiers": ["option"]
-          }],
+              "modifiers": [
+                "option"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -494,7 +710,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -509,28 +726,38 @@
           "from": {
             "key_code": "command"
           },
-          "to_if_alone": [{
-            "key_code": "launchpad"
-          }],
+          "to_if_alone": [
+            {
+              "key_code": "launchpad"
+            }
+          ],
           "type": "basic"
         }
       ]
     },
-
-
-
     {
       "description": "A (Ctrl)",
       "manipulators": [
         {
           "from": {
             "key_code": "a",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "a",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -539,7 +766,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -553,12 +781,23 @@
         {
           "from": {
             "key_code": "b",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "b",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -567,7 +806,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -581,12 +821,23 @@
         {
           "from": {
             "key_code": "c",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "c",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -595,7 +846,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -609,18 +861,31 @@
         {
           "from": {
             "key_code": "c",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "c",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -634,12 +899,23 @@
         {
           "from": {
             "key_code": "f",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "f",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -648,7 +924,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -662,12 +939,23 @@
         {
           "from": {
             "key_code": "i",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "i",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -676,7 +964,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -690,11 +979,20 @@
         {
           "from": {
             "key_code": "l",
-            "modifiers": { "mandatory": ["command"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "shell_command": "/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-          }],
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -705,12 +1003,24 @@
         {
           "from": {
             "key_code": "l",
-            "modifiers": { "mandatory": ["command"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "command"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "power",
-              "modifiers": ["control", "shift"]
-          }],
+              "modifiers": [
+                "control",
+                "shift"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -721,11 +1031,21 @@
         {
           "from": {
             "key_code": "l",
-            "modifiers": { "mandatory": ["control", "option"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "shell_command": "/System/Library/CoreServices/Menu\\ Extras/User.menu/Contents/Resources/CGSession -suspend"
-          }],
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -736,12 +1056,25 @@
         {
           "from": {
             "key_code": "l",
-            "modifiers": { "mandatory": ["control", "option"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "power",
-              "modifiers": ["control", "shift"]
-          }],
+              "modifiers": [
+                "control",
+                "shift"
+              ]
+            }
+          ],
           "type": "basic"
         }
       ]
@@ -752,12 +1085,23 @@
         {
           "from": {
             "key_code": "n",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "n",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -766,7 +1110,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -780,12 +1125,23 @@
         {
           "from": {
             "key_code": "o",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "o",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -794,7 +1150,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -808,12 +1165,23 @@
         {
           "from": {
             "key_code": "p",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "p",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -822,7 +1190,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -836,12 +1205,23 @@
         {
           "from": {
             "key_code": "r",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "r",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -850,7 +1230,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -864,12 +1245,23 @@
         {
           "from": {
             "key_code": "s",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "s",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -878,7 +1270,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -892,11 +1285,21 @@
         {
           "from": {
             "key_code": "t",
-            "modifiers": { "mandatory": [ "control" ], "optional": [ "any" ] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "t",
-              "modifiers": [ "command" ]
+              "modifiers": [
+                "command"
+              ]
             }
           ],
           "conditions": [
@@ -907,7 +1310,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -921,12 +1325,23 @@
         {
           "from": {
             "key_code": "u",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "u",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -935,7 +1350,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -949,12 +1365,23 @@
         {
           "from": {
             "key_code": "v",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "v",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -963,7 +1390,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -977,18 +1405,31 @@
         {
           "from": {
             "key_code": "v",
-            "modifiers": { "mandatory": ["control", "shift"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control",
+                "shift"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "v",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
                 "^com\\.apple\\.Terminal$",
-                "^com\\.googlecode\\.iterm2$"
+                "^com\\.googlecode\\.iterm2$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -1002,12 +1443,23 @@
         {
           "from": {
             "key_code": "w",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "w",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -1016,7 +1468,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -1030,12 +1483,23 @@
         {
           "from": {
             "key_code": "x",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "x",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -1044,7 +1508,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -1058,12 +1523,23 @@
         {
           "from": {
             "key_code": "y",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "y",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -1072,7 +1548,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -1086,12 +1563,23 @@
         {
           "from": {
             "key_code": "z",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "z",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -1100,7 +1588,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -1108,27 +1597,36 @@
         }
       ]
     },
-
-
-
     {
       "description": "/ (Ctrl)",
       "manipulators": [
         {
           "from": {
             "key_code": "slash",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "slash",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -1136,21 +1634,27 @@
         }
       ]
     },
-
-
-
     {
       "description": "F1",
       "manipulators": [
         {
           "from": {
             "key_code": "f1",
-            "modifiers": { "optional": ["any"] }
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "slash",
-              "modifiers": ["command", "shift"]
-          }],
+              "modifiers": [
+                "command",
+                "shift"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -1159,7 +1663,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -1173,12 +1678,20 @@
         {
           "from": {
             "key_code": "f3",
-            "modifiers": { "optional": ["any"] }
+            "modifiers": {
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "g",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
@@ -1187,7 +1700,8 @@
                 "^com\\.googlecode\\.iterm2$",
                 "^co\\.zeit\\.hyper$",
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -1201,18 +1715,30 @@
         {
           "from": {
             "key_code": "f4",
-            "modifiers": { "mandatory": ["option"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "option"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "q",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_unless",
               "bundle_identifiers": [
                 "^org\\.virtualbox\\.app\\.VirtualBoxVM$",
-                "^com\\.microsoft\\.rdc\\.macos$"
+                "^com\\.microsoft\\.rdc\\.macos$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
@@ -1226,17 +1752,29 @@
         {
           "from": {
             "key_code": "f4",
-            "modifiers": { "mandatory": ["control"], "optional": ["any"] }
+            "modifiers": {
+              "mandatory": [
+                "control"
+              ],
+              "optional": [
+                "any"
+              ]
+            }
           },
-          "to": [{
+          "to": [
+            {
               "key_code": "w",
-              "modifiers": ["command"]
-          }],
+              "modifiers": [
+                "command"
+              ]
+            }
+          ],
           "conditions": [
             {
               "type": "frontmost_application_if",
               "bundle_identifiers": [
-                "^com\\.google\\.Chrome$"
+                "^com\\.google\\.Chrome$",
+                "^com\\.jetbrains\\.pycharm$"
               ]
             }
           ],
